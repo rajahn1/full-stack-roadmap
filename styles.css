@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 5rem 10rem;
+    background-color: rgb(55, 65, 81);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header section {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(109, 40, 217);
+    padding: 3rem 10rem 1rem 10rem;
+    gap: 2rem;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 10px 10px 29px 0px rgb(254, 243, 199);
+    -moz-box-shadow: 10px 10px 29px 0px rgb(254, 243, 199);
+    box-shadow: 0px 0px 15px 15px rgb(254, 243, 199);
+}
+
+h1{
+    font-size: 4.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fafafa;
+}
+
+section{
+    margin-bottom:2rem ;
+}
+
+h2 {
+    font-size: 3.6rem;
+    color: #D946EF;
+    margin: 3rem 0rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    list-style: circle;
+}
+
+li {
+    font-size: 2.4rem;
+    color: #FAFAFA;
+    padding: 1rem;
+}
+
+section ul li:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #E879F9;                                     
+}
+
+.content ul li a {                                                          
+    all: unset;
+    padding: .8rem;
+}
+
+.list-content {
+    list-style: lower-alpha;
+}
+
+.show {
+    display: flex;
+    margin-left: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+li svg {
+    vertical-align: middle;
+    fill: currentColor;
+}
+
+.align-link-image{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fade-in{animation:fade-in 0.4s cubic-bezier(.39,.575,.565,1.000) both}
+
+@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+
+.scale-out-center{animation:scale-out-center .5s cubic-bezier(.55,.085,.68,.53) both}
+@keyframes scale-out-center{0%{transform:scale(1);opacity:1}100%{transform:scale(0);opacity:1}}
