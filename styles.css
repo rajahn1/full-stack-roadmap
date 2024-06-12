@@ -22,7 +22,7 @@ header section {
     width: fit-content;
     display: flex;
     justify-content: center;
-    background-color: rgb(109, 40, 217);
+    background-color: #CA8A04;
     padding: 3rem 10rem 1rem 10rem;
     gap: 2rem;
     border-radius: 3rem;
@@ -45,7 +45,7 @@ section{
 
 h2 {
     font-size: 3.6rem;
-    color: #D946EF;
+    color: #FFF327;
     margin: 3rem 0rem;
 }
 
@@ -65,7 +65,7 @@ li {
 section ul li:hover {
     cursor: pointer;
     opacity: 0.8;
-    color: #E879F9;                                     
+    color: #FFF327;                                     
 }
 
 .content ul li a {                                                          
